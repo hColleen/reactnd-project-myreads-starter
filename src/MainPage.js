@@ -20,7 +20,9 @@ class MainPage extends React.Component {
                 .map(book => (
                     <li key = {book.id}>
                         <Book
-                        book = {book} />
+                        book = {book}
+                        moveShelf = {this.props.moveShelf}
+                         />
                     </li>
                 ))
             }
@@ -37,7 +39,9 @@ class MainPage extends React.Component {
                 .map(book => (
                     <li key = {book.id}>
                         <Book
-                        book = {book} />
+                        book = {book}
+                        moveShelf = {this.props.moveShelf}
+                         />
                     </li>
                 ))
             }
@@ -54,7 +58,9 @@ class MainPage extends React.Component {
                 .map(book => (
                     <li key = {book.id}>
                         <Book
-                        book = {book} />
+                        book = {book}
+                        moveShelf = {this.props.moveShelf}
+                         />
                     </li>
                 ))
             }

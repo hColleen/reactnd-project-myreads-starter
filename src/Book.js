@@ -7,11 +7,16 @@ class Book extends React.Component {
             <div className="book-top">
             <div className="book-cover" style={{ width: 128, height: 193, backgroundImage: `url("${this.props.book.imageLinks.thumbnail}")` }}></div>
             <div className="book-shelf-changer">
-                <select>
+                <select
+                onChange = {(event) => this.props.moveShelf(
+                    this.props.book, event.target.value
+                )}
+                value = {this.props.book.shelf}
+                >
                 <option value="move" disabled>Move to...</option>
-                <option value="no">No</option>
-                <option value="notWithPole">Not With a 10' Pole</option>
-                <option value="DNF">DNF</option>
+                <option value="currentlyReading">No</option>
+                <option value="wantToRead">Not With a 10' Pole</option>
+                <option value="read">DNF</option>
                 <option value="none">None</option>
                 </select>
             </div>
