@@ -11,7 +11,7 @@ class MainPage extends React.Component {
     <div className="list-books-content">
       <div>
         <div className="bookshelf">
-          <h2 className="bookshelf-title">Currently Reading</h2>
+          <h2 className="bookshelf-title">No</h2>
           <div className="bookshelf-books">
             <ol className="books-grid">
               <li>
@@ -21,7 +21,7 @@ class MainPage extends React.Component {
             </div>
         </div>
         <div className="bookshelf">
-          <h2 className="bookshelf-title">Want to Read</h2>
+          <h2 className="bookshelf-title">Not With A 10' Pole</h2>
           <div className="bookshelf-books">
             <ol className="books-grid">
               <li>
@@ -31,7 +31,7 @@ class MainPage extends React.Component {
           </div>
         </div>
         <div className="bookshelf">
-          <h2 className="bookshelf-title">Read</h2>
+          <h2 className="bookshelf-title">DNF</h2>
           <div className="bookshelf-books">
             <ol className="books-grid">
               <li>
