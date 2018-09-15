@@ -6,9 +6,6 @@ import MainPage from './MainPage'
 
 
 class BooksApp extends React.Component {
-  state = {
-    showSearchPage: false
-  }
 
   render() {
     return (

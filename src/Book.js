@@ -9,9 +9,9 @@ class Book extends React.Component {
             <div className="book-shelf-changer">
                 <select>
                 <option value="move" disabled>Move to...</option>
-                <option value="currentlyReading">Currently Reading</option>
-                <option value="wantToRead">Want to Read</option>
-                <option value="read">Read</option>
+                <option value="no">No</option>
+                <option value="notWithPole">Not With a 10' Pole</option>
+                <option value="DNF">DNF</option>
                 <option value="none">None</option>
                 </select>
             </div>
