@@ -52,7 +52,7 @@ class MainPage extends React.Component {
           </div>
         </div>
         <div className="bookshelf">
-          <h2 className="bookshelf-title">DNF</h2>
+          <Link to = "/DNF"><h2 className="bookshelf-title">DNF</h2></Link>
           <div className="bookshelf-books">
             <ol className="books-grid">
             {
