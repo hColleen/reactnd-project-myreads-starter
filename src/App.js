@@ -27,10 +27,10 @@ class BooksApp extends React.Component {
     console.log(this.state.books);
     return (
       <div className="app">
-        {/*<MainPage 
+        <MainPage 
         books = {this.state.books}
         moveShelf={this.moveShelf}
-        />*/}
+        />
         <SearchPage
         moveShelf={this.moveShelf}
         />
