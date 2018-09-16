@@ -12,7 +12,7 @@ class MainPage extends React.Component {
     <div className="list-books-content">
       <div>
         <div className="bookshelf">
-          <h2 className="bookshelf-title">No</h2>
+        <Link to = "/no"><h2 className="bookshelf-title">No</h2></Link>
           <div className="bookshelf-books">
             <ol className="books-grid">
             {
