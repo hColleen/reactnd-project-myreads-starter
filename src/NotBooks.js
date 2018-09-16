@@ -2,7 +2,7 @@ import React from 'react'
 import Book from './Book'
 import { Link } from 'react-router-dom';
 
-class NoBooks extends React.Component {
+class NotBooks extends React.Component {
     render(){
         return (
             <div className="list-books">
@@ -14,13 +14,13 @@ class NoBooks extends React.Component {
                         <ol className="books-grid">
                         {
                             this.props.books
-                            .filter(book => book.shelf === 'currentlyReading')
+                            .filter(book => book.shelf === 'wantToRead')
                             .map(book => (
                                 <li key = {book.id}>
                                     <Book
                                     book = {book}
                                     moveShelf = {this.props.moveShelf}
-                                    currentShelf = 'currentlyReading'
+                                    currentShelf = 'wantToRead'
                                     />
                                 </li>
                             ))
@@ -36,4 +36,4 @@ class NoBooks extends React.Component {
     }
 }
 
-export default NoBooks
+export default NotBooks

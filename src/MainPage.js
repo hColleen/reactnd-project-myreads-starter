@@ -32,7 +32,7 @@ class MainPage extends React.Component {
             </div>
         </div>
         <div className="bookshelf">
-          <h2 className="bookshelf-title">Not With A 10' Pole</h2>
+          <Link to = "/pole"><h2 className="bookshelf-title">Not With A 10' Pole</h2></Link>
           <div className="bookshelf-books">
             <ol className="books-grid">
               {

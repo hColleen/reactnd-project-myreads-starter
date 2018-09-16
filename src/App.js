@@ -4,6 +4,7 @@ import './App.css'
 import SearchPage from './SearchPage'
 import MainPage from './MainPage'
 import NoBooks from './NoBooks'
+import NotBooks from './NotBooks'
 import { Route } from 'react-router-dom'
 
 class BooksApp extends React.Component {
@@ -45,12 +46,12 @@ class BooksApp extends React.Component {
         books = {this.state.books}
         />
         )} />
-        {/*<Route path = "/pole" render ={() => (
-        <NotWithAPole
+        <Route path = "/pole" render ={() => (
+        <NotBooks
         moveShelf={this.moveShelf}
         books = {this.state.books}
         />
-        )} />*/}
+        )} />
       </div>
     )
   }
