@@ -1,7 +1,8 @@
-import React, { Component } from 'react';
-import * as BooksAPI from './BooksAPI';
-import Book from './Book';
-import { Link } from 'react-router-dom';
+import React, { Component } from 'react'
+import * as BooksAPI from './BooksAPI'
+import Book from './Book'
+import { Link } from 'react-router-dom'
+import BurgerMenu from './BurgerMenu'
 
 class SearchPage extends React.Component {
     state = {
@@ -33,6 +34,11 @@ class SearchPage extends React.Component {
 
     render(){
         return(
+            <div className="list-books">
+            <BurgerMenu />
+                <div className="list-books-title">
+                    <h1>Not So GoodReads</h1>
+                </div>
             <div className="search-books">
                 <div className="search-books-bar">
                 <Link
@@ -73,6 +79,7 @@ class SearchPage extends React.Component {
                     }    
                     </ol>
                 </div>
+            </div>
             </div>
         )
     }

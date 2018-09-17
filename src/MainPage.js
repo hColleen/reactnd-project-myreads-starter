@@ -1,11 +1,13 @@
 import React from 'react'
 import Book from './Book'
-import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom'
+import BurgerMenu from './BurgerMenu.js'
 
 class MainPage extends React.Component {
     render(){
         return (
     <div className="list-books">
+    <BurgerMenu />
     <div className="list-books-title">
       <h1>Not So GoodReads</h1>
     </div>

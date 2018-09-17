@@ -1,13 +1,15 @@
 import React from 'react'
 import Book from './Book'
-import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom'
+import BurgerMenu from './BurgerMenu'
 
 class NotBooks extends React.Component {
     render(){
         return (
             <div className="list-books">
+            <BurgerMenu />
                 <div className="list-books-title">
-                <Link to ="/"><h1>Not So GoodReads</h1></Link>
+                <h1>Not So GoodReads</h1>
                 </div>
                 <div className="list-books-content">
                     <div>
