@@ -13,3 +13,4 @@ ReactDOM.render(
 
     //tutorial from here https://www.youtube.com/watch?v=i6L2jLHV9j8
     //menu starter code from here https://github.com/negomi/react-burger-menu
+    //I know the values and the displayed names don't match, but I wanted to have fun with it.
